@@ -8,7 +8,7 @@ function createPowerFunction(baseNumber) {
   
       return baseNumber * pow(exponent - 1);
     }
-  
+  //cl
     return pow;
   }
     const powerOfFour = createPowerFunction(5);
