@@ -5,9 +5,10 @@
       if (n === 0) return 0;
       if (n === 1) return 1;
       //re
-      return pjFibonacci(n - 1) + pjFibonacci(n - 2);
+       const prevNum1 = pjFibonacci(n - 1);
+       const prevNum2 = pjFibonacci(n - 2);
+       return prevNum1 + prevNum2;
     }
-  
     //cl
     return function(n) {
       return pjFibonacci(n);
